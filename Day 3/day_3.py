@@ -4,7 +4,7 @@ age = int(18)
 height = float(1.70)
 numComplex = 7 + 9j
 
-base = float(input("Enter the base:"))
+base = float(input("Enter the base:")) 
 height = float(input("Enter the height:"))
 areaTriangle = (base*height)/2
 print(f"The area of your triangle is {areaTriangle}")
