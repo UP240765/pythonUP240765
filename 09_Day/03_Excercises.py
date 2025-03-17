@@ -26,3 +26,28 @@ if 'skills' in person.keys():
         print(f"Python is not a skill in the diccionary")
 else:
     print(f"'skills' is not on the person")
+
+#If a person skills has only
+fronDev = ['JavaScript','React']
+backDev = ['Node','Python','MongoDB']
+fullStack = ['React', 'Node', 'MongoDB']
+
+if person['skills'] == fronDev:
+    print(f"She's a front-end developer")
+elif person['skills'] == backDev:
+    print(f"She's a back-end developer")
+elif person['skills'] == fullStack:
+    print(f"She's a a fullstack developer")
+else:
+    print(f"unknown title")
+
+
+
+#If the person is married and if he lives in Finland, print the information in the following format:
+if person['is_marred']:
+    status = "She's married"
+else:
+    status = "She's not married"
+
+print(f"{person['first_name']} {person['last_name']} lives in {person['country']}. {status} ")
+
