@@ -2657,4 +2657,9 @@ def most_spoken_languages(countries, top=10):
     
     return [lang[0] for lang in sorted_languages[:top]]
 
+#Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in 
+# descending order.
+def most_populated_countries(countries, top=10):
+    sorted_countries = sorted(countries, key=lambda x: x["population"], reverse=True)
+    return [(country["name"], country["population"]) for country in sorted_countries[:top]]
 
