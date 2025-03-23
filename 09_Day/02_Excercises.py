@@ -28,7 +28,6 @@ elif month == "MARCH" or month == "APRIL" or month == "MAY":
 
 elif month == "JUNE" or month == "JULY" or month == "AUGUST":
     print(f"The current season is Summer")
-
 else:
     print(f"Invalid Data")
 
