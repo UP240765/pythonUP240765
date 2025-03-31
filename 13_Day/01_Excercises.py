@@ -29,3 +29,8 @@ names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')],
 full_name = [[name + " " + lastname] for sublist in names for (name,lastname) in sublist]
 full_name = [i for n in full_name for i in n]
 print(full_name)
+
+#Write a lambda function which can solve a slope or y-intercept of linear functions.
+slope = lambda x1,y1,x2,y2 : (y2-y1)/(x2-x1)
+print(slope(3,5,4,1))
+
